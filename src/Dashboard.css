@@ -1,0 +1,102 @@
+.dashboard-section {
+  padding: 50px 150px 50px 150px;
+  overflow: hidden;
+}
+
+.dashboard-section .licence-information {
+  background: #F6FBFF;
+  border-radius: 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 2px 20px;
+}
+
+.dashboard-section .licence-information p {
+  padding: 12px 30px;
+  font-size: 20px;
+}
+
+.dashboard-section .licence-information p:nth-child(4) {
+  background: #3C599B;
+  padding: 12px 30px;
+  border-radius: 8px;
+  color: #fff;
+}
+
+.dashboard-section .quick-view-section {
+  background: powderblue;
+}
+
+.dashboard-section .quick-view-section .cards-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: palegreen;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.dashboard-section .quick-view-section .cards-container .vertical-cards {
+  background: palevioletred;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 5PX 0;
+}
+
+.dashboard-section .quick-view-section .cards-container .vertical-cards .vartical-card {
+  background: #3C599B;
+  width: 200px;
+  height: 260px;
+  border-radius: 16px;
+  margin: 0 10PX;
+}
+
+.dashboard-section .quick-view-section .cards-container .horizontal-cards {
+  background: peru;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-line-pack: justify;
+      align-content: space-between;
+}
+
+.dashboard-section .quick-view-section .cards-container .horizontal-cards .horizontal-card {
+  background: #FFF6F6;
+  width: 247px;
+  height: 120px;
+  border-radius: 16px;
+  margin: 10px 0;
+}
+
+.dashboard-section .above-table {
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+/*# sourceMappingURL=Dashboard.css.map */

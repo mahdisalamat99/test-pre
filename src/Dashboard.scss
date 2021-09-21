@@ -1,0 +1,71 @@
+.dashboard-section{
+    // width: 100%;
+    padding: 50px 150px 50px 150px;
+    overflow: hidden;
+    .licence-information{
+        background: #F6FBFF;
+        border-radius: 16px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 2px 20px;
+        p{
+            padding:12px 30px ;
+            font-size: 20px;
+            &:nth-child(4){
+                background: #3C599B;
+                padding: 12px 30px;
+                border-radius: 8px;
+                color: #fff;
+            }
+        }
+    }
+    .quick-view-section{
+        background: powderblue;
+        .cards-container{
+            display: flex;
+            background: palegreen;
+            align-items: center;
+            justify-content: space-between;
+            .vertical-cards{
+                background: palevioletred;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                padding: 5PX 0;
+                .vartical-card{
+                    background: #3C599B;
+                    width: 200px;
+                    height: 260px;
+                    border-radius: 16px;
+                    margin: 0 10PX;
+                }
+            }
+            .horizontal-cards{
+                background: peru;
+                display: flex;
+                flex-direction: column;
+                align-content: space-between;
+                .horizontal-card{
+                    background: #FFF6F6;
+                    width: 247px;
+                    height: 120px;
+                    border-radius: 16px;
+                    margin: 10px 0;
+                }
+            }
+        }
+    }
+    .above-table{
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-between;
+        .member-doctor{
+
+        }
+        .search-bar{
+
+        }
+        
+    }
+}
