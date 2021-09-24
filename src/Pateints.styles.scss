@@ -1,0 +1,118 @@
+.patients-section{
+    width: 100%;
+    .top-section{
+        gap: 50px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: normal;
+        align-items: normal;
+        align-content: normal;
+        .left-part{
+            background: papayawhip;
+            flex-grow: 1;
+            flex-shrink: 1;
+            flex-basis: auto;
+            align-self: auto;
+            order: 0;
+            .latest-patient{
+
+            }
+            .user-card{
+                display: flex;
+                justify-content: space-around;
+                border: 1px solid #B2B2B2;
+                border-radius: 16px;
+
+                .patient-name{
+
+                }
+                .patient-code{
+
+                }
+                .first-column{
+
+                }
+                .second-column{
+
+                }
+                .third-column{
+
+                }
+            }
+        }
+        .right-part{
+            background: palegreen;
+            flex-grow: 0;
+            flex-shrink: 1;
+            flex-basis: 15%;
+            align-self: auto;
+            order: 0;
+            .general-note{
+
+                }
+                .note-card{
+                    border: 1px solid #B2B2B2;
+                    border-radius: 16px;
+                    .note{
+                       
+
+                    }
+                    .date{
+
+                    }
+                }
+        }
+    }
+    .bottom-section{
+        .above-table{
+            display: flex;
+            justify-content: space-between;
+            .titles{
+                display: flex;
+                justify-content: space-between;
+                .title{
+                    &:nth-child(1){
+                        background: #FB4473;
+                    }
+
+                }
+            }
+            .search-bar{
+                display: flex;
+                align-items: center;
+                border: 1px solid #B2B2B2;
+                border-radius: 50px;
+                .la-search{
+                    padding: 10px;
+                }
+                .search-input{
+                    background: none;
+                    border: none;
+                    outline: none;
+                }
+            }
+        }
+        .table{
+            border: 1px solid #B2B2B2;
+            border-radius: 16px;
+            padding: 15px;
+            .row{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                .info-key{
+                    padding: 10px;
+                    flex-grow: 1;
+                }
+                .info-value{
+                    padding: 10px;
+                    width: 75%;
+                    border-radius: 8px;
+                    background: blue;
+                    
+                }
+            }
+        }
+    }
+}

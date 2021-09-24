@@ -1,10 +1,10 @@
-import Dashboard from './Dashboard';
 import './App.css';
+import Patients from './Patients';
 
 function App() {
   return (
     <div className="App">
-      <Dashboard/>
+      <Patients/>      
     </div>
   );
 }
