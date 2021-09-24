@@ -1,0 +1,40 @@
+.row-section{
+    .row{
+        padding: 15px 25px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .row-number{
+            width: 15%;
+        }
+        .row-info{
+            padding: 10px 25px;
+            border-radius: 8px;
+            background: #F6FBFF;
+            display: flex;
+            align-items: center;
+            flex-grow: 1;
+            justify-content: space-between;
+            .doctor-image{
+    
+            }
+            .name-code{
+                .doctor-name{
+                    .doctor-code{
+    
+                    }
+                }
+            }
+            .department{
+    
+            }
+            .last-login{
+    
+            }
+            .surgery-number{
+    
+            }
+        }
+    }
+}

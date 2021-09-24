@@ -118,7 +118,7 @@
 .patients-section .bottom-section .table {
   border: 1px solid #B2B2B2;
   border-radius: 16px;
-  padding: 15px;
+  padding: 15px 25px;
 }
 
 .patients-section .bottom-section .table .row {
@@ -142,7 +142,7 @@
 
 .patients-section .bottom-section .table .row .info-value {
   padding: 10px;
-  width: 75%;
+  width: 60%;
   border-radius: 8px;
   background: blue;
 }
